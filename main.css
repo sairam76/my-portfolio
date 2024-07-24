@@ -1,0 +1,48 @@
+/* Reset default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background: #333;
+    color: white;
+    width: 200px;
+    min-height: 100vh;
+    padding: 1em;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 1em 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 220px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.page-section {
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 800px;
+    margin-top: 0;
+    text-align: left;
+}
